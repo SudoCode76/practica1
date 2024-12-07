@@ -4,7 +4,7 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 if (!isset($_SESSION['username'])) {
-    header("Location: ../views/login/login.php");
+    header("Location: /PRACTICA1/app/views/login/login.php");
     exit();
 }
 
