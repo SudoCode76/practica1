@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesion</title>
+    <title>Registrar</title>
     <link href="../../../public/css/output.css" rel="stylesheet">
     
 </head>
@@ -15,9 +15,9 @@
       <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                  Iniciar Sesion
+                  Registrarse
               </h1>
-              <form class="space-y-4 md:space-y-6" action="#" method="POST">
+              <form class="space-y-4 md:space-y-6" action="#">
                   <div>
                       <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ingrese su usuario</label>
                       <input 
@@ -43,11 +43,9 @@
                   <button 
                   type="submit" 
                   class="btn btn-outline"
-                  >Iniciar Sesion
+                  >Registrarse
                 </button>
-                  <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                    No tienes cuenta? <a href="registrar.php" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Crear Cuenta</a>
-                  </p>
+                  
               </form>
 
           </div>

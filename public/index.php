@@ -33,3 +33,5 @@ if ($uri === '/' || $uri === '/home') {
     header("HTTP/1.0 404 Not Found");
     echo 'Página no encontrada';
 }
+
+
