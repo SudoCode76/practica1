@@ -1,0 +1,2 @@
+# Test .htaccess
+Redirect 302 /PRACTICA1/public/test.htaccess https://www.google.com
