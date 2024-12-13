@@ -1,6 +1,9 @@
 <?php
 require_once __DIR__ . '/../models/loginModel.php';
 
+
+
+
 class LoginController {
     private $model;
 
@@ -11,5 +14,10 @@ class LoginController {
     public function login($username, $password){
         return $this->model->login($username, $password);
     }
+
+    public function index() {
+        require_once __DIR__ . '/../views/login/login.php';
+    }
 }
+
 ?>
